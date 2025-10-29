@@ -119,11 +119,18 @@ footer {
     #logo {
         font-size: 280%;
         line-height: 75px;
-        left-margin: 0.5rem;
+        margin:  0 0.5rem;
     }
     /*Push main content down */
     main {
         margin-top: 79px;
-        
+
+    }
+}
+/*media query for laptops and bigger (992px and up)*/
+@media screen and (min-width: 992px) {
+    /*a tags descendant of menu*/
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
