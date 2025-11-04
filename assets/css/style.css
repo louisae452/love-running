@@ -169,6 +169,11 @@ main {
         right: 50px;
     }
 }
+/*Reasons styling*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
 /*media query for laptops and bigger (992px and up)*/
 @media screen and (min-width: 992px) {
     /*a tags descendant of menu*/
