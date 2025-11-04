@@ -96,11 +96,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
-
 }
 
+#social-networks i {
+    font-size: 100%;
+    padding: 5%;
+    color: #3a3a3a;
 
+}
 
 
 /*media query: tablets and larger (768px and up)*/
