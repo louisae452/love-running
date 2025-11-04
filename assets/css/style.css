@@ -170,9 +170,24 @@ main {
     }
 }
 /*Reasons styling*/
+hr { 
+    border-top: 1ps solid #3a3a3a;
+    margin: 5px 0;
+}
 #reasons {
     width: 90%;
     margin: 20px auto;
+}
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+}
+.reasons-box {
+    margin: 10px;
+    ;
+}
+.reasons-box p {
+    padding: 0 20px;
 }
 /*media query for laptops and bigger (992px and up)*/
 @media screen and (min-width: 992px) {
