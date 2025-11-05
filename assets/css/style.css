@@ -184,10 +184,25 @@ hr {
 }
 .reasons-box {
     margin: 10px;
-    ;
+    
 }
 .reasons-box p {
     padding: 0 20px;
+}
+#circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    background: url(../images/reasons-image.webp) no-repeat  top center /cover;
+    margin-bottom: 20px;
+    /*make a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*media query for laptops and bigger (992px and up)*/
 @media screen and (min-width: 992px) {
