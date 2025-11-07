@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <!-- Meta tags for search engines -->
-    <meta name="description" content="Love running, Club for runners in Dublin, Ireland, Urban running, Dublin docklands and Phoenix Park">
-    <meta name="keywords" content="love running, run, running clulb, runners, Ireland, Dublin, sport, exercise">
 
-    <!-- Title -->
-    <title>Love running</title>
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
-    <!-- Style sheet.-->
-     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <!-- Header-->
-    <header>
-      <a href="index.html">
-        <h1 id="logo">Love Running</h1> 
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label"><i class= "fa-solid fa-bars"></i></label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html" class="non-active">Home</a></li>
-          <li><a href="gallery.html" class="non-active">Gallery</a></li>
-          <li><a href="signup.html" class="active">Sign up</a></li>
-        </ul>
-      </nav>
-    </Header>
-    <!-- Main Content-->
-    <main>
-      <form method=" POST" action="https://formdump.codeinstitute.net">
-        <h2>LET'S GET YOU SIGNED UP!</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags for search engines -->
+  <meta name="description"
+    content="Love running, Club for runners in Dublin, Ireland, Urban running, Dublin docklands and Phoenix Park">
+  <meta name="keywords" content="love running, run, running clulb, runners, Ireland, Dublin, sport, exercise">
+
+  <!-- Title -->
+  <title>Love running</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <!-- Style sheet.-->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header-->
+  <header>
+    <a href="index.html">
+      <h1 id="logo">Love Running</h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html" class="non-active">Home</a></li>
+        <li><a href="gallery.html" class="non-active">Gallery</a></li>
+        <li><a href="signup.html" class="active">Sign up</a></li>
+      </ul>
+    </nav>
+  </Header>
+  <!-- Main Content-->
+  <main>
+    <section id="signup">
+      <form id="signup-form" method=" POST" action="https://formdump.codeinstitute.net">
+        <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
         <label for="first-name">First Name</label>
-        <input type="text" id="first-mame" required>
+        <input type="text" id="first-mame"  class="text-input" name="first-name" required>
         </br>
         <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" required>
+        <input type="text" id="last-name" class="text-input" name="last-name" required>
         </br>
         <label for="email-address">Email Address</label>
-        <input type="email" id="email-address" required>
+        <input type="email" id="email-address" class="text-input" name="email-address" required>
         </br>
-        <input type="radio" class="radio.buttons" id="road" name="running_preference" value="road">
-        <label for="road">Road</label>
-        </br>
-        <input type="radio" class="radio.buttons" id="trail" name="running_preference" value="trail">
-        <label for="trail">Trail</label>
-        </br>
-        <input type="radio" class="radio.buttons" id="both" name="running_preference" value="both">
-        <label for="both">both</label>
-        </br>
-        <button type="submit" class="join-button">Let's Run!</button>
 
+        <div class="radio-buttons">
+          <div>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="road">Road</label>
+            </br>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="trail">Trail</label>
+            </br>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            <label for="both">both</label>
+            </br>
+          </div>
+            <button type="submit" class="join-button">Let's Run!</button>
+          
+        </div>
       </form>
-    </main>
-    
-    <!-- Footer-->
-    <footer>
-      <ul id="social-networks">
-        
-        <li> <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://x.com" target="_blank" rel-"noopener" aria-label="see us on x (opens in new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-        <li><a href="https://uk.linkedin.com" target="_blank" rel="noopener" arialabel="See us on linekin (opens in new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="https:/instagram.com" target="_blank" rel="noopener" aria-label="Join us on instagram (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
-      </ul>
+    </section>
+  </main>
+
+  <!-- Footer-->
+  <footer>
+    <ul id="social-networks">
+
+      <li> <a href="https://www.facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://x.com" target="_blank" rel-"noopener" aria-label="see us on x (opens in new tab)"><i
+            class="fa-brands fa-square-x-twitter"></i></a></li>
+      <li><a href="https://uk.linkedin.com" target="_blank" rel="noopener"
+          arialabel="See us on linekin (opens in new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="https:/instagram.com" target="_blank" rel="noopener"
+          aria-label="Join us on instagram (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+    </ul>
 
 
 
 
-    </footer>
-    <!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/39f1e1f60d.js" crossorigin="anonymous"></script>
-  </body>
+  </footer>
+  <!-- Font awesome kit -->
+  <script src="https://kit.fontawesome.com/39f1e1f60d.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
