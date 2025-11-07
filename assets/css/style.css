@@ -119,7 +119,7 @@ main {
 }
 /*Reasons styling*/
 hr { 
-    border-top: 1ps solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 #reasons {
