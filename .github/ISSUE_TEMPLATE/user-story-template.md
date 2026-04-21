@@ -15,5 +15,5 @@ In order to **receive benefit** as a **role**, I can **goal/desire**
 - Acceptance criteria 2:
 
 ## **Tasks**
-[ ] Task one
-[ ] Task two
+- [ ] Task one
+- [ ] Task two
